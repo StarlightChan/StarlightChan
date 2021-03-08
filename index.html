@@ -9,7 +9,7 @@
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        transition-duration: 0.4s;
+        transition-duration: .5s;
     }   
 
     .button1:hover {
@@ -21,20 +21,29 @@
 <body>
 
     <p>yooo
-        fuCKKK
-        UWU
+        Just a website for me to have fun!
     </p>
 
     <p><a href="https://www.youtube.com/channel/UCuM1mwgNEbdB3HMwo3c0SYA">Check out my Youtube Channel!</a></p>
-    <a href="./pages/imageGallery.html"><button class="button button1">See my pics!</button></a>
+
+    <!--Button to images-->
+    <a href="./pages/imageGallery.html">
+        <div style="position: absolute; left:50%; top:300px; margin-left: -64px;">
+            <button class="button button1">
+                See my pics!
+            </button>
+        </div>
+    </a>
 
 
-    <p>BGM - Foxtail[Grass Studio] - awkward in the afternoon</p>
+    
 
-
-    <audio controls loop>
-        <source src="info/foxtail.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+    <div style="position: fixed; left:10px; bottom: 10px;">
+        <p>BGM - Foxtail[Grass Studio] - awkward in the afternoon</p>
+        <audio controls loop>
+            <source src="info/music/foxtail.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 </body>
 
